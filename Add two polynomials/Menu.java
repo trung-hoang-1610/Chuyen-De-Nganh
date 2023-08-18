@@ -9,9 +9,10 @@ public class Menu {
         ChucNang chucNang = new ChucNang();
         while (choose) {
             System.out.println("===== Menu =====");
-            System.out.println("1. Them da thuc");
-            System.out.println("2. hien thi da thuc");
-            System.out.println("3. tinh tong 2 da thuc");
+            System.out.println("1. Nhap 2 da thuc can tinh");
+            //System.out.println("2. Hien thi da thuc");
+            System.out.println("3. Tinh tong 2 da thuc");
+            System.out.println("4. Lich su tinh");
             System.out.println("0. Thoat");
            
 
@@ -20,15 +21,17 @@ public class Menu {
 
             switch (chon) {
                 case 1:
-                    chucNang.themDaThuc();
+                    chucNang.nhapDaThuc();
                     break;
                 case 2:
-                    chucNang.showDaThuc1();
-                    chucNang.showDaThuc2();
+                    //chucNang.showDaThuc1();
+                    //chucNang.showDaThuc2();
                     break;
                 case 3:
                     chucNang.showTong2DaThuc();
                     break;
+                case 4:
+                    chucNang.showDanhSachDaThuc();
                 case 0:
                     choose = false;
                     break;
