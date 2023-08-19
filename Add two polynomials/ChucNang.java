@@ -157,29 +157,7 @@ public class ChucNang {
             this.daThuc2.themHangTu(heSo, soMu);
         }
 
-        // System.out.print("nhap vao so luong hang tu cua da thuc thu nhat: ");
-        // int toanTu1 = scanner.nextInt();
-
-        // for(int i = 0; i<toanTu1; i++){
-        // System.out.print("nhap vao lan luot he so va so mu cua hang tu thu " + i+1 +
-        // ": " );
-        // int heSo = scanner.nextInt();
-        // int soMu = scanner.nextInt();
-        // this.daThuc1.themHangTu(heSo, soMu);
-        // }
-
-        // System.out.print("nhap vao so luong hang tu cua da thuc thu hai: ");
-        // int toanTu2 = scanner.nextInt();
-
-        // for(int i = 0; i<toanTu2; i++){
-        // System.out.print("nhap vao lan luot he so va so mu cua hang tu thu " + i+1 +
-        // ": " );
-        // int heSo = scanner.nextInt();
-        // int soMu = scanner.nextInt();
-        // this.daThuc2.themHangTu(heSo, soMu);
-
-        // }
-
+    
         // scanner.close();
 
     }
